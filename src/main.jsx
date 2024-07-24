@@ -2,17 +2,18 @@ import React from "react"
 import ReactDom from "react-dom/client"
 import "./style.css"
 // import Profile from "./components/profile"
-import Light from "./components/Light"
+
+import Tasbih from "./Tasbih"
 
 // import Header from "./components/Header"
 // import body from "./components/Body"
 // import Footer from "./components/Footer"
 
-const root = document.getElementById("root")
+const root = document.getElementById("root") 
 
 ReactDom.createRoot(root).render(
     <div>
-        < Light />
+        < Tasbih />
     </div>
     // <div className="flex justify-center gap-5">
     //     <Profile name="Abdullah ALi" bgColor="red" bio="Hello Abdalla"  image="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?t=st=1721648666~exp=1721652266~hmac=94b39dd1ba7b0f69b1f6fc562d4fe4a97d2d729b06495f04b69cb1dd104ff644&w=740"/>
